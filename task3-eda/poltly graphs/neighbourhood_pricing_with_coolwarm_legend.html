@@ -1,0 +1,1044 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_3063c485154577649ec18161318754e9 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_3063c485154577649ec18161318754e9" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_3063c485154577649ec18161318754e9 = L.map(
+                "map_3063c485154577649ec18161318754e9",
+                {
+                    center: [37.977136717189126, 23.72901698835733],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_b8c0e8e03c2c721725950e7d1ed13970 = L.tileLayer(
+                "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca target=\"_blank\" href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca target=\"_blank\" href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_3063c485154577649ec18161318754e9);
+        
+    
+            var circle_marker_914c552eca9f21ba24f3707fb9b5416c = L.circleMarker(
+                [37.96229785895538, 23.737874409508603],
+                {"bubblingMouseEvents": true, "color": "#9467bd", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9467bd", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3063c485154577649ec18161318754e9);
+        
+    
+        var popup_35c10c6f169db44a9af2304228cb6603 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_570eba5a3ee91de1bd99970c169f8415 = $(`<div id="html_570eba5a3ee91de1bd99970c169f8415" style="width: 100.0%; height: 100.0%;">Neighbourhood: 1Ο ΝΕΚΡΟΤΑΦΕΙΟ<br>Average Price: $85.10</div>`)[0];
+                popup_35c10c6f169db44a9af2304228cb6603.setContent(html_570eba5a3ee91de1bd99970c169f8415);
+            
+        
+
+        circle_marker_914c552eca9f21ba24f3707fb9b5416c.bindPopup(popup_35c10c6f169db44a9af2304228cb6603)
+        ;
+
+        
+    
+    
+            var circle_marker_c06454f3a195b63c55e110ae5381872c = L.circleMarker(
+                [38.01894135426211, 23.730404394713567],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3063c485154577649ec18161318754e9);
+        
+    
+        var popup_693b8f4c8ca0c465819cf53273f1c3e5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9300475254db11dfa12284ce0560ab18 = $(`<div id="html_9300475254db11dfa12284ce0560ab18" style="width: 100.0%; height: 100.0%;">Neighbourhood: ΑΓΙΟΣ ΕΛΕΥΘΕΡΙΟΣ<br>Average Price: $42.75</div>`)[0];
+                popup_693b8f4c8ca0c465819cf53273f1c3e5.setContent(html_9300475254db11dfa12284ce0560ab18);
+            
+        
+
+        circle_marker_c06454f3a195b63c55e110ae5381872c.bindPopup(popup_693b8f4c8ca0c465819cf53273f1c3e5)
+        ;
+
+        
+    
+    
+            var circle_marker_854c35d5a346baa54288715e5ba5948c = L.circleMarker(
+                [37.98554589793572, 23.722359266032758],
+                {"bubblingMouseEvents": true, "color": "#2ca02c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ca02c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3063c485154577649ec18161318754e9);
+        
+    
+        var popup_7d49ece77be90b2b61d29736593a8135 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3f6c1ea53232b4697b975fcda67b7c31 = $(`<div id="html_3f6c1ea53232b4697b975fcda67b7c31" style="width: 100.0%; height: 100.0%;">Neighbourhood: ΑΓΙΟΣ ΚΩΝΣΤΑΝΤΙΝΟΣ-ΠΛΑΤΕΙΑ ΒΑΘΗΣ<br>Average Price: $64.96</div>`)[0];
+                popup_7d49ece77be90b2b61d29736593a8135.setContent(html_3f6c1ea53232b4697b975fcda67b7c31);
+            
+        
+
+        circle_marker_854c35d5a346baa54288715e5ba5948c.bindPopup(popup_7d49ece77be90b2b61d29736593a8135)
+        ;
+
+        
+    
+    
+            var circle_marker_8140b7c51ecfc9e2ac53f525b51b01a1 = L.circleMarker(
+                [38.00793762768351, 23.729902786512252],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3063c485154577649ec18161318754e9);
+        
+    
+        var popup_42edc47b9495027519bd97d71371fe91 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_60149a1f57dfe2f92f84de2ddbd30e22 = $(`<div id="html_60149a1f57dfe2f92f84de2ddbd30e22" style="width: 100.0%; height: 100.0%;">Neighbourhood: ΑΓΙΟΣ ΝΙΚΟΛΑΟΣ<br>Average Price: $46.68</div>`)[0];
+                popup_42edc47b9495027519bd97d71371fe91.setContent(html_60149a1f57dfe2f92f84de2ddbd30e22);
+            
+        
+
+        circle_marker_8140b7c51ecfc9e2ac53f525b51b01a1.bindPopup(popup_42edc47b9495027519bd97d71371fe91)
+        ;
+
+        
+    
+    
+            var circle_marker_528f752a0fc84e714876f6c6a3091933 = L.circleMarker(
+                [37.98879559060531, 23.712607447053653],
+                {"bubblingMouseEvents": true, "color": "#9467bd", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9467bd", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3063c485154577649ec18161318754e9);
+        
+    
+        var popup_faf552b8b5cd35edaa79ca60e872a64a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d468ba2bc7a10af0bb78c791fe2cccc9 = $(`<div id="html_d468ba2bc7a10af0bb78c791fe2cccc9" style="width: 100.0%; height: 100.0%;">Neighbourhood: ΑΚΑΔΗΜΙΑ ΠΛΑΤΩΝΟΣ<br>Average Price: $90.34</div>`)[0];
+                popup_faf552b8b5cd35edaa79ca60e872a64a.setContent(html_d468ba2bc7a10af0bb78c791fe2cccc9);
+            
+        
+
+        circle_marker_528f752a0fc84e714876f6c6a3091933.bindPopup(popup_faf552b8b5cd35edaa79ca60e872a64a)
+        ;
+
+        
+    
+    
+            var circle_marker_31366ae36f46b52880f088017d11d6e0 = L.circleMarker(
+                [37.968031603655106, 23.722608139495573],
+                {"bubblingMouseEvents": true, "color": "#17becf", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#17becf", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3063c485154577649ec18161318754e9);
+        
+    
+        var popup_95483ddacf3609444632086d7ed54a31 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_524387c8214f23a964026d77b55c2830 = $(`<div id="html_524387c8214f23a964026d77b55c2830" style="width: 100.0%; height: 100.0%;">Neighbourhood: ΑΚΡΟΠΟΛΗ<br>Average Price: $149.27</div>`)[0];
+                popup_95483ddacf3609444632086d7ed54a31.setContent(html_524387c8214f23a964026d77b55c2830);
+            
+        
+
+        circle_marker_31366ae36f46b52880f088017d11d6e0.bindPopup(popup_95483ddacf3609444632086d7ed54a31)
+        ;
+
+        
+    
+    
+            var circle_marker_2a9b8800dd473eca56c17b11910fbecd = L.circleMarker(
+                [37.992329583863516, 23.76263932995152],
+                {"bubblingMouseEvents": true, "color": "#2ca02c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ca02c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3063c485154577649ec18161318754e9);
+        
+    
+        var popup_a620c057a9aef2b4ce0a3a7d2ba7bb5a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_200e8a658db98fc45957e4ae4443788e = $(`<div id="html_200e8a658db98fc45957e4ae4443788e" style="width: 100.0%; height: 100.0%;">Neighbourhood: ΑΜΠΕΛΟΚΗΠΟΙ<br>Average Price: $67.25</div>`)[0];
+                popup_a620c057a9aef2b4ce0a3a7d2ba7bb5a.setContent(html_200e8a658db98fc45957e4ae4443788e);
+            
+        
+
+        circle_marker_2a9b8800dd473eca56c17b11910fbecd.bindPopup(popup_a620c057a9aef2b4ce0a3a7d2ba7bb5a)
+        ;
+
+        
+    
+    
+            var circle_marker_3ccf10ea3f5aae5d65f7d81ef6887a6c = L.circleMarker(
+                [38.00575634578027, 23.74067444098027],
+                {"bubblingMouseEvents": true, "color": "#ff7f0e", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7f0e", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3063c485154577649ec18161318754e9);
+        
+    
+        var popup_94c73537eb59c469fb03bc70f1ba7f41 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_20878d96fac8ce57c7235990aeed178c = $(`<div id="html_20878d96fac8ce57c7235990aeed178c" style="width: 100.0%; height: 100.0%;">Neighbourhood: ΑΝΩ ΚΥΨΕΛΗ<br>Average Price: $48.34</div>`)[0];
+                popup_94c73537eb59c469fb03bc70f1ba7f41.setContent(html_20878d96fac8ce57c7235990aeed178c);
+            
+        
+
+        circle_marker_3ccf10ea3f5aae5d65f7d81ef6887a6c.bindPopup(popup_94c73537eb59c469fb03bc70f1ba7f41)
+        ;
+
+        
+    
+    
+            var circle_marker_d66f0da124428f57abaeb7b83b5c48a8 = L.circleMarker(
+                [38.019992239951414, 23.73757045943816],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3063c485154577649ec18161318754e9);
+        
+    
+        var popup_9dcf34e5f763cd33041a4b6ac2c6a722 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_144b9a974d6292e6e5058a893574b271 = $(`<div id="html_144b9a974d6292e6e5058a893574b271" style="width: 100.0%; height: 100.0%;">Neighbourhood: ΑΝΩ ΠΑΤΗΣΙΑ<br>Average Price: $47.98</div>`)[0];
+                popup_9dcf34e5f763cd33041a4b6ac2c6a722.setContent(html_144b9a974d6292e6e5058a893574b271);
+            
+        
+
+        circle_marker_d66f0da124428f57abaeb7b83b5c48a8.bindPopup(popup_9dcf34e5f763cd33041a4b6ac2c6a722)
+        ;
+
+        
+    
+    
+            var circle_marker_b46de3f39f04ce9f3e9663f829f6b72d = L.circleMarker(
+                [37.97996969660943, 23.708826227775194],
+                {"bubblingMouseEvents": true, "color": "#9467bd", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9467bd", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3063c485154577649ec18161318754e9);
+        
+    
+        var popup_01f35d9c238923ce47d360a2b8a5ab0a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_617c832a017f6c585f6f6223d17a7fe4 = $(`<div id="html_617c832a017f6c585f6f6223d17a7fe4" style="width: 100.0%; height: 100.0%;">Neighbourhood: ΒΟΤΑΝΙΚΟΣ<br>Average Price: $87.86</div>`)[0];
+                popup_01f35d9c238923ce47d360a2b8a5ab0a.setContent(html_617c832a017f6c585f6f6223d17a7fe4);
+            
+        
+
+        circle_marker_b46de3f39f04ce9f3e9663f829f6b72d.bindPopup(popup_01f35d9c238923ce47d360a2b8a5ab0a)
+        ;
+
+        
+    
+    
+            var circle_marker_119d3662970ccdcd53ca7091bed7e0ba = L.circleMarker(
+                [37.97647685043067, 23.70934096835554],
+                {"bubblingMouseEvents": true, "color": "#8c564b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8c564b", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3063c485154577649ec18161318754e9);
+        
+    
+        var popup_b5489688d8e5628cfc2038a3a482e311 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9645dad8020c4813e7412a3608272d48 = $(`<div id="html_9645dad8020c4813e7412a3608272d48" style="width: 100.0%; height: 100.0%;">Neighbourhood: ΓΚΑΖΙ<br>Average Price: $99.34</div>`)[0];
+                popup_b5489688d8e5628cfc2038a3a482e311.setContent(html_9645dad8020c4813e7412a3608272d48);
+            
+        
+
+        circle_marker_119d3662970ccdcd53ca7091bed7e0ba.bindPopup(popup_b5489688d8e5628cfc2038a3a482e311)
+        ;
+
+        
+    
+    
+            var circle_marker_2fa202d180b8329043e686eba9efc07b = L.circleMarker(
+                [37.991166417570916, 23.74857206549116],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3063c485154577649ec18161318754e9);
+        
+    
+        var popup_a361768867f44d94a6290db61655041c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_72d4dd05f2e9dc2000727c1f2b956938 = $(`<div id="html_72d4dd05f2e9dc2000727c1f2b956938" style="width: 100.0%; height: 100.0%;">Neighbourhood: ΓΚΥΖΗ<br>Average Price: $45.75</div>`)[0];
+                popup_a361768867f44d94a6290db61655041c.setContent(html_72d4dd05f2e9dc2000727c1f2b956938);
+            
+        
+
+        circle_marker_2fa202d180b8329043e686eba9efc07b.bindPopup(popup_a361768867f44d94a6290db61655041c)
+        ;
+
+        
+    
+    
+            var circle_marker_32a2ea4ffae7bdbff265432e3e6e567c = L.circleMarker(
+                [37.960393020942014, 23.741006416152878],
+                {"bubblingMouseEvents": true, "color": "#d62728", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d62728", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3063c485154577649ec18161318754e9);
+        
+    
+        var popup_28b39df369d901fb97ea3537b6d0e230 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f3579c8cc2b500493bfdd53818416fcb = $(`<div id="html_f3579c8cc2b500493bfdd53818416fcb" style="width: 100.0%; height: 100.0%;">Neighbourhood: ΓΟΥΒΑ<br>Average Price: $74.41</div>`)[0];
+                popup_28b39df369d901fb97ea3537b6d0e230.setContent(html_f3579c8cc2b500493bfdd53818416fcb);
+            
+        
+
+        circle_marker_32a2ea4ffae7bdbff265432e3e6e567c.bindPopup(popup_28b39df369d901fb97ea3537b6d0e230)
+        ;
+
+        
+    
+    
+            var circle_marker_efc3d255b392d8776baaf7ec1f991476 = L.circleMarker(
+                [37.98326023286322, 23.761651606177228],
+                {"bubblingMouseEvents": true, "color": "#2ca02c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ca02c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3063c485154577649ec18161318754e9);
+        
+    
+        var popup_17867c7dacb053462f58d1c7155aaa35 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f07e8dc7d77c3edde08722f95f30be70 = $(`<div id="html_f07e8dc7d77c3edde08722f95f30be70" style="width: 100.0%; height: 100.0%;">Neighbourhood: ΓΟΥΔΙ<br>Average Price: $66.35</div>`)[0];
+                popup_17867c7dacb053462f58d1c7155aaa35.setContent(html_f07e8dc7d77c3edde08722f95f30be70);
+            
+        
+
+        circle_marker_efc3d255b392d8776baaf7ec1f991476.bindPopup(popup_17867c7dacb053462f58d1c7155aaa35)
+        ;
+
+        
+    
+    
+            var circle_marker_7b7a47b1dbdf380ffba00f95e4aa262a = L.circleMarker(
+                [37.99647754431223, 23.774644243591908],
+                {"bubblingMouseEvents": true, "color": "#ff7f0e", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7f0e", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3063c485154577649ec18161318754e9);
+        
+    
+        var popup_c60991607e00809c5b62a69311c326a9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4f353cb001a3607a5382b66a22e0428a = $(`<div id="html_4f353cb001a3607a5382b66a22e0428a" style="width: 100.0%; height: 100.0%;">Neighbourhood: ΕΛΛΗΝΟΡΩΣΩΝ<br>Average Price: $50.94</div>`)[0];
+                popup_c60991607e00809c5b62a69311c326a9.setContent(html_4f353cb001a3607a5382b66a22e0428a);
+            
+        
+
+        circle_marker_7b7a47b1dbdf380ffba00f95e4aa262a.bindPopup(popup_c60991607e00809c5b62a69311c326a9)
+        ;
+
+        
+    
+    
+            var circle_marker_9f698a8e2b9fded74d3778618d77517d = L.circleMarker(
+                [37.97698631638369, 23.728895598728972],
+                {"bubblingMouseEvents": true, "color": "#7f7f7f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#7f7f7f", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3063c485154577649ec18161318754e9);
+        
+    
+        var popup_3ef5240c39f01f522cd605d2b76d1ddf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_631eed4951540dac584257dfc41218f7 = $(`<div id="html_631eed4951540dac584257dfc41218f7" style="width: 100.0%; height: 100.0%;">Neighbourhood: ΕΜΠΟΡΙΚΟ ΤΡΙΓΩΝΟ-ΠΛΑΚΑ<br>Average Price: $117.84</div>`)[0];
+                popup_3ef5240c39f01f522cd605d2b76d1ddf.setContent(html_631eed4951540dac584257dfc41218f7);
+            
+        
+
+        circle_marker_9f698a8e2b9fded74d3778618d77517d.bindPopup(popup_3ef5240c39f01f522cd605d2b76d1ddf)
+        ;
+
+        
+    
+    
+            var circle_marker_77aef6a79df01ea157261ed81d458c2c = L.circleMarker(
+                [37.968338168292725, 23.732841532759092],
+                {"bubblingMouseEvents": true, "color": "#17becf", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#17becf", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3063c485154577649ec18161318754e9);
+        
+    
+        var popup_d6004a1c528369c7411aab45b6cf6cf7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_04dc9ae154a5174995ae2e04a9d78840 = $(`<div id="html_04dc9ae154a5174995ae2e04a9d78840" style="width: 100.0%; height: 100.0%;">Neighbourhood: ΖΑΠΠΕΙΟ<br>Average Price: $152.03</div>`)[0];
+                popup_d6004a1c528369c7411aab45b6cf6cf7.setContent(html_04dc9ae154a5174995ae2e04a9d78840);
+            
+        
+
+        circle_marker_77aef6a79df01ea157261ed81d458c2c.bindPopup(popup_d6004a1c528369c7411aab45b6cf6cf7)
+        ;
+
+        
+    
+    
+            var circle_marker_7d279a848a1e097d073c16f396fde346 = L.circleMarker(
+                [37.97603629565767, 23.71841103827702],
+                {"bubblingMouseEvents": true, "color": "#e377c2", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e377c2", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3063c485154577649ec18161318754e9);
+        
+    
+        var popup_cb5f6a16ec6da15574231bfe5ed7bb09 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c9f2f3de095a9b69aa07c77e74347199 = $(`<div id="html_c9f2f3de095a9b69aa07c77e74347199" style="width: 100.0%; height: 100.0%;">Neighbourhood: ΘΗΣΕΙΟ<br>Average Price: $117.31</div>`)[0];
+                popup_cb5f6a16ec6da15574231bfe5ed7bb09.setContent(html_c9f2f3de095a9b69aa07c77e74347199);
+            
+        
+
+        circle_marker_7d279a848a1e097d073c16f396fde346.bindPopup(popup_cb5f6a16ec6da15574231bfe5ed7bb09)
+        ;
+
+        
+    
+    
+            var circle_marker_b420f1947e42e60d6f3d2b256fe73850 = L.circleMarker(
+                [37.97586355009828, 23.752274290685236],
+                {"bubblingMouseEvents": true, "color": "#d62728", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d62728", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3063c485154577649ec18161318754e9);
+        
+    
+        var popup_e49ff285c5113563c2efba244b07d350 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5fa97cad3c4a065a23357b2283ef1b6a = $(`<div id="html_5fa97cad3c4a065a23357b2283ef1b6a" style="width: 100.0%; height: 100.0%;">Neighbourhood: ΙΛΙΣΙΑ<br>Average Price: $80.02</div>`)[0];
+                popup_e49ff285c5113563c2efba244b07d350.setContent(html_5fa97cad3c4a065a23357b2283ef1b6a);
+            
+        
+
+        circle_marker_b420f1947e42e60d6f3d2b256fe73850.bindPopup(popup_e49ff285c5113563c2efba244b07d350)
+        ;
+
+        
+    
+    
+            var circle_marker_243ba6f969265d41131bc82676641153 = L.circleMarker(
+                [37.98072228310759, 23.718140841736282],
+                {"bubblingMouseEvents": true, "color": "#8c564b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8c564b", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3063c485154577649ec18161318754e9);
+        
+    
+        var popup_6e7a5ddd6616f08f6c4a7795b170382c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6aa6b1c2d1fdda6c0f2e1de294df4ba0 = $(`<div id="html_6aa6b1c2d1fdda6c0f2e1de294df4ba0" style="width: 100.0%; height: 100.0%;">Neighbourhood: ΚΕΡΑΜΕΙΚΟΣ<br>Average Price: $99.00</div>`)[0];
+                popup_6e7a5ddd6616f08f6c4a7795b170382c.setContent(html_6aa6b1c2d1fdda6c0f2e1de294df4ba0);
+            
+        
+
+        circle_marker_243ba6f969265d41131bc82676641153.bindPopup(popup_6e7a5ddd6616f08f6c4a7795b170382c)
+        ;
+
+        
+    
+    
+            var circle_marker_31b2732ce5a8511b5e0129c7ba7c0959 = L.circleMarker(
+                [38.000785465525674, 23.710597503667483],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3063c485154577649ec18161318754e9);
+        
+    
+        var popup_59e82c7aa66e617bfc8101775487fe88 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_35cc8f9cc78588ffdc40b596e981f33c = $(`<div id="html_35cc8f9cc78588ffdc40b596e981f33c" style="width: 100.0%; height: 100.0%;">Neighbourhood: ΚΟΛΟΚΥΝΘΟΥ<br>Average Price: $44.83</div>`)[0];
+                popup_59e82c7aa66e617bfc8101775487fe88.setContent(html_35cc8f9cc78588ffdc40b596e981f33c);
+            
+        
+
+        circle_marker_31b2732ce5a8511b5e0129c7ba7c0959.bindPopup(popup_59e82c7aa66e617bfc8101775487fe88)
+        ;
+
+        
+    
+    
+            var circle_marker_28adc6372b12a54c15a739dda65d30ee = L.circleMarker(
+                [37.97892650959457, 23.742491090676346],
+                {"bubblingMouseEvents": true, "color": "#e377c2", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e377c2", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3063c485154577649ec18161318754e9);
+        
+    
+        var popup_2d6b4062abad3f79815b1d4f7e0b945e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2f1a2d68c02918b45f35e64d4a304c57 = $(`<div id="html_2f1a2d68c02918b45f35e64d4a304c57" style="width: 100.0%; height: 100.0%;">Neighbourhood: ΚΟΛΩΝΑΚΙ<br>Average Price: $116.92</div>`)[0];
+                popup_2d6b4062abad3f79815b1d4f7e0b945e.setContent(html_2f1a2d68c02918b45f35e64d4a304c57);
+            
+        
+
+        circle_marker_28adc6372b12a54c15a739dda65d30ee.bindPopup(popup_2d6b4062abad3f79815b1d4f7e0b945e)
+        ;
+
+        
+    
+    
+            var circle_marker_a12df6f9114ddd7897fa2ba029aa0b74 = L.circleMarker(
+                [37.996325457768855, 23.716852969172557],
+                {"bubblingMouseEvents": true, "color": "#ff7f0e", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7f0e", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3063c485154577649ec18161318754e9);
+        
+    
+        var popup_5b53861ea0da5355cf33466579fb48cd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d377b765aa47413268c04045664e811b = $(`<div id="html_d377b765aa47413268c04045664e811b" style="width: 100.0%; height: 100.0%;">Neighbourhood: ΚΟΛΩΝΟΣ<br>Average Price: $56.52</div>`)[0];
+                popup_5b53861ea0da5355cf33466579fb48cd.setContent(html_d377b765aa47413268c04045664e811b);
+            
+        
+
+        circle_marker_a12df6f9114ddd7897fa2ba029aa0b74.bindPopup(popup_5b53861ea0da5355cf33466579fb48cd)
+        ;
+
+        
+    
+    
+            var circle_marker_ba78552a82de00a212b58a3a38e81666 = L.circleMarker(
+                [37.96564088874283, 23.725098901962966],
+                {"bubblingMouseEvents": true, "color": "#e377c2", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e377c2", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3063c485154577649ec18161318754e9);
+        
+    
+        var popup_536771877424fa44616db76210177e7c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bb60a34e43e0e6eff794bc2deeebbf11 = $(`<div id="html_bb60a34e43e0e6eff794bc2deeebbf11" style="width: 100.0%; height: 100.0%;">Neighbourhood: ΚΟΥΚΑΚΙ-ΜΑΚΡΥΓΙΑΝΝΗ<br>Average Price: $111.10</div>`)[0];
+                popup_536771877424fa44616db76210177e7c.setContent(html_bb60a34e43e0e6eff794bc2deeebbf11);
+            
+        
+
+        circle_marker_ba78552a82de00a212b58a3a38e81666.bindPopup(popup_536771877424fa44616db76210177e7c)
+        ;
+
+        
+    
+    
+            var circle_marker_d54b6fe90ce9958d2ba8bba424900f97 = L.circleMarker(
+                [37.99933937981494, 23.737142991078404],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3063c485154577649ec18161318754e9);
+        
+    
+        var popup_e49452add1155d2055c4b2723716b9d2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dd4412e01a262b1a589925c3bec716da = $(`<div id="html_dd4412e01a262b1a589925c3bec716da" style="width: 100.0%; height: 100.0%;">Neighbourhood: ΚΥΨΕΛΗ<br>Average Price: $47.23</div>`)[0];
+                popup_e49452add1155d2055c4b2723716b9d2.setContent(html_dd4412e01a262b1a589925c3bec716da);
+            
+        
+
+        circle_marker_d54b6fe90ce9958d2ba8bba424900f97.bindPopup(popup_e49452add1155d2055c4b2723716b9d2)
+        ;
+
+        
+    
+    
+            var circle_marker_d4263c80e7ec34f15acec10a9d25084b = L.circleMarker(
+                [37.98207405545839, 23.744280360533235],
+                {"bubblingMouseEvents": true, "color": "#8c564b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8c564b", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3063c485154577649ec18161318754e9);
+        
+    
+        var popup_340fb57b189416ffcc7d671b895a32d1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6577affcfa2bca0607e489107c757d41 = $(`<div id="html_6577affcfa2bca0607e489107c757d41" style="width: 100.0%; height: 100.0%;">Neighbourhood: ΛΥΚΑΒΗΤΤΟΣ<br>Average Price: $103.79</div>`)[0];
+                popup_340fb57b189416ffcc7d671b895a32d1.setContent(html_6577affcfa2bca0607e489107c757d41);
+            
+        
+
+        circle_marker_d4263c80e7ec34f15acec10a9d25084b.bindPopup(popup_340fb57b189416ffcc7d671b895a32d1)
+        ;
+
+        
+    
+    
+            var circle_marker_2f8f201d0d152075eb9ce363f5275cdb = L.circleMarker(
+                [37.98702533536422, 23.73653688637901],
+                {"bubblingMouseEvents": true, "color": "#2ca02c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ca02c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3063c485154577649ec18161318754e9);
+        
+    
+        var popup_b1f70997ea5e282b002495acd2f9a398 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_609ff0c0bb3744ba894b0ba3d573625a = $(`<div id="html_609ff0c0bb3744ba894b0ba3d573625a" style="width: 100.0%; height: 100.0%;">Neighbourhood: ΜΟΥΣΕΙΟ-ΕΞΑΡΧΕΙΑ-ΝΕΑΠΟΛΗ<br>Average Price: $65.14</div>`)[0];
+                popup_b1f70997ea5e282b002495acd2f9a398.setContent(html_609ff0c0bb3744ba894b0ba3d573625a);
+            
+        
+
+        circle_marker_2f8f201d0d152075eb9ce363f5275cdb.bindPopup(popup_b1f70997ea5e282b002495acd2f9a398)
+        ;
+
+        
+    
+    
+            var circle_marker_5fe6a503a93dbdbc52e67639a4bb38ee = L.circleMarker(
+                [37.999434433925856, 23.74576933670928],
+                {"bubblingMouseEvents": true, "color": "#ff7f0e", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7f0e", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3063c485154577649ec18161318754e9);
+        
+    
+        var popup_0ff3701755ef05f703bf9b395610d150 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6965a87c2fde49c2e312ed9f55625cd0 = $(`<div id="html_6965a87c2fde49c2e312ed9f55625cd0" style="width: 100.0%; height: 100.0%;">Neighbourhood: ΝΕΑ ΚΥΨΕΛΗ<br>Average Price: $52.06</div>`)[0];
+                popup_0ff3701755ef05f703bf9b395610d150.setContent(html_6965a87c2fde49c2e312ed9f55625cd0);
+            
+        
+
+        circle_marker_5fe6a503a93dbdbc52e67639a4bb38ee.bindPopup(popup_0ff3701755ef05f703bf9b395610d150)
+        ;
+
+        
+    
+    
+            var circle_marker_6496080963b5dfc3bf7210868f57b37d = L.circleMarker(
+                [37.96144461408566, 23.72861129633917],
+                {"bubblingMouseEvents": true, "color": "#e377c2", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e377c2", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3063c485154577649ec18161318754e9);
+        
+    
+        var popup_4ef5b47112f0adaafef2e70570b07d9a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_632052126cf693f97f40c2ea2179fafa = $(`<div id="html_632052126cf693f97f40c2ea2179fafa" style="width: 100.0%; height: 100.0%;">Neighbourhood: ΝΕΟΣ ΚΟΣΜΟΣ<br>Average Price: $107.49</div>`)[0];
+                popup_4ef5b47112f0adaafef2e70570b07d9a.setContent(html_632052126cf693f97f40c2ea2179fafa);
+            
+        
+
+        circle_marker_6496080963b5dfc3bf7210868f57b37d.bindPopup(popup_4ef5b47112f0adaafef2e70570b07d9a)
+        ;
+
+        
+    
+    
+            var circle_marker_8f2ca1b6eb7ceb6afafc699bd87fa944 = L.circleMarker(
+                [38.01075794593785, 23.725145375454673],
+                {"bubblingMouseEvents": true, "color": "#ff7f0e", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7f0e", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3063c485154577649ec18161318754e9);
+        
+    
+        var popup_1c142bb8e37845707f8a7dd60fb52b75 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8d17c313eb92d4397be8c7ee5b9fdf3c = $(`<div id="html_8d17c313eb92d4397be8c7ee5b9fdf3c" style="width: 100.0%; height: 100.0%;">Neighbourhood: ΝΙΡΒΑΝΑ<br>Average Price: $55.66</div>`)[0];
+                popup_1c142bb8e37845707f8a7dd60fb52b75.setContent(html_8d17c313eb92d4397be8c7ee5b9fdf3c);
+            
+        
+
+        circle_marker_8f2ca1b6eb7ceb6afafc699bd87fa944.bindPopup(popup_1c142bb8e37845707f8a7dd60fb52b75)
+        ;
+
+        
+    
+    
+            var circle_marker_d279d06e418c563bd45ae287b9cb8355 = L.circleMarker(
+                [37.969959664926485, 23.74670295686276],
+                {"bubblingMouseEvents": true, "color": "#d62728", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d62728", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3063c485154577649ec18161318754e9);
+        
+    
+        var popup_5e9c6b0acacced16d37ed953566e2e84 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_384651e2790d04d903802ff29def8067 = $(`<div id="html_384651e2790d04d903802ff29def8067" style="width: 100.0%; height: 100.0%;">Neighbourhood: ΠΑΓΚΡΑΤΙ<br>Average Price: $79.73</div>`)[0];
+                popup_5e9c6b0acacced16d37ed953566e2e84.setContent(html_384651e2790d04d903802ff29def8067);
+            
+        
+
+        circle_marker_d279d06e418c563bd45ae287b9cb8355.bindPopup(popup_5e9c6b0acacced16d37ed953566e2e84)
+        ;
+
+        
+    
+    
+            var circle_marker_05329f48bb3db25b777b2ecd129183fd = L.circleMarker(
+                [38.01154895531614, 23.73476501004004],
+                {"bubblingMouseEvents": true, "color": "#2ca02c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ca02c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3063c485154577649ec18161318754e9);
+        
+    
+        var popup_acc702ac0f04bd752d2a204704e93b07 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_edaa61a90ab8922075e71d4e1220d4ee = $(`<div id="html_edaa61a90ab8922075e71d4e1220d4ee" style="width: 100.0%; height: 100.0%;">Neighbourhood: ΠΑΤΗΣΙΑ<br>Average Price: $69.93</div>`)[0];
+                popup_acc702ac0f04bd752d2a204704e93b07.setContent(html_edaa61a90ab8922075e71d4e1220d4ee);
+            
+        
+
+        circle_marker_05329f48bb3db25b777b2ecd129183fd.bindPopup(popup_acc702ac0f04bd752d2a204704e93b07)
+        ;
+
+        
+    
+    
+            var circle_marker_9e5596c1251d41c79b535f95e8e8d757 = L.circleMarker(
+                [37.994661078229385, 23.73955987064404],
+                {"bubblingMouseEvents": true, "color": "#9467bd", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9467bd", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3063c485154577649ec18161318754e9);
+        
+    
+        var popup_0b124ddd9b3add03624002773ef87f05 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4b674967ee4aede3cd50ed5ff4bbb4ac = $(`<div id="html_4b674967ee4aede3cd50ed5ff4bbb4ac" style="width: 100.0%; height: 100.0%;">Neighbourhood: ΠΕΔΙΟ ΑΡΕΩΣ<br>Average Price: $83.27</div>`)[0];
+                popup_0b124ddd9b3add03624002773ef87f05.setContent(html_4b674967ee4aede3cd50ed5ff4bbb4ac);
+            
+        
+
+        circle_marker_9e5596c1251d41c79b535f95e8e8d757.bindPopup(popup_0b124ddd9b3add03624002773ef87f05)
+        ;
+
+        
+    
+    
+            var circle_marker_ca08cadb0256dc96aaf41a1b72d31d77 = L.circleMarker(
+                [37.99732717391304, 23.779009999999996],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3063c485154577649ec18161318754e9);
+        
+    
+        var popup_b1297a8664dbde26188c805be3dc3249 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3117649b2a34a44c58bb87ee307cd6c2 = $(`<div id="html_3117649b2a34a44c58bb87ee307cd6c2" style="width: 100.0%; height: 100.0%;">Neighbourhood: ΠΕΝΤΑΓΩΝΟ<br>Average Price: $45.25</div>`)[0];
+                popup_b1297a8664dbde26188c805be3dc3249.setContent(html_3117649b2a34a44c58bb87ee307cd6c2);
+            
+        
+
+        circle_marker_ca08cadb0256dc96aaf41a1b72d31d77.bindPopup(popup_b1297a8664dbde26188c805be3dc3249)
+        ;
+
+        
+    
+    
+            var circle_marker_6c2573bf95f82cf3b27668272d4e068d = L.circleMarker(
+                [37.97050062447691, 23.71039134130988],
+                {"bubblingMouseEvents": true, "color": "#8c564b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8c564b", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3063c485154577649ec18161318754e9);
+        
+    
+        var popup_10ec3d9d267200762e5c47c65e5db87f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_11aa27343ca5c00e039d2d84456da342 = $(`<div id="html_11aa27343ca5c00e039d2d84456da342" style="width: 100.0%; height: 100.0%;">Neighbourhood: ΠΕΤΡΑΛΩΝΑ<br>Average Price: $102.81</div>`)[0];
+                popup_10ec3d9d267200762e5c47c65e5db87f.setContent(html_11aa27343ca5c00e039d2d84456da342);
+            
+        
+
+        circle_marker_6c2573bf95f82cf3b27668272d4e068d.bindPopup(popup_10ec3d9d267200762e5c47c65e5db87f)
+        ;
+
+        
+    
+    
+            var circle_marker_71dbe5276b054f8b9503c4dccf27483b = L.circleMarker(
+                [38.002796566142244, 23.730768544078252],
+                {"bubblingMouseEvents": true, "color": "#ff7f0e", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7f0e", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3063c485154577649ec18161318754e9);
+        
+    
+        var popup_d95a7911af78a3eae1de7ddf81fe00e4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_01ec8aeab897ac06ef45b76caefe66d0 = $(`<div id="html_01ec8aeab897ac06ef45b76caefe66d0" style="width: 100.0%; height: 100.0%;">Neighbourhood: ΠΛΑΤΕΙΑ ΑΜΕΡΙΚΗΣ<br>Average Price: $48.55</div>`)[0];
+                popup_d95a7911af78a3eae1de7ddf81fe00e4.setContent(html_01ec8aeab897ac06ef45b76caefe66d0);
+            
+        
+
+        circle_marker_71dbe5276b054f8b9503c4dccf27483b.bindPopup(popup_d95a7911af78a3eae1de7ddf81fe00e4)
+        ;
+
+        
+    
+    
+            var circle_marker_58943481124b48acac88fe9404733750 = L.circleMarker(
+                [37.9955020890051, 23.727005124600232],
+                {"bubblingMouseEvents": true, "color": "#8c564b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8c564b", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3063c485154577649ec18161318754e9);
+        
+    
+        var popup_e7bcf57c8ae6bca3407645f7bd5c484b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_876359ad4cd1cc35e3f441c51c2f9af4 = $(`<div id="html_876359ad4cd1cc35e3f441c51c2f9af4" style="width: 100.0%; height: 100.0%;">Neighbourhood: ΠΛΑΤΕΙΑ ΑΤΤΙΚΗΣ<br>Average Price: $102.10</div>`)[0];
+                popup_e7bcf57c8ae6bca3407645f7bd5c484b.setContent(html_876359ad4cd1cc35e3f441c51c2f9af4);
+            
+        
+
+        circle_marker_58943481124b48acac88fe9404733750.bindPopup(popup_e7bcf57c8ae6bca3407645f7bd5c484b)
+        ;
+
+        
+    
+    
+            var circle_marker_4ec4d4a511669742d347b94fd077e384 = L.circleMarker(
+                [37.997789862421776, 23.75365469461246],
+                {"bubblingMouseEvents": true, "color": "#ff7f0e", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7f0e", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3063c485154577649ec18161318754e9);
+        
+    
+        var popup_30692dc625475414cde1b9a095b429b2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ac752ed36039c1182097a211b38d6f41 = $(`<div id="html_ac752ed36039c1182097a211b38d6f41" style="width: 100.0%; height: 100.0%;">Neighbourhood: ΠΟΛΥΓΩΝΟ<br>Average Price: $49.78</div>`)[0];
+                popup_30692dc625475414cde1b9a095b429b2.setContent(html_ac752ed36039c1182097a211b38d6f41);
+            
+        
+
+        circle_marker_4ec4d4a511669742d347b94fd077e384.bindPopup(popup_30692dc625475414cde1b9a095b429b2)
+        ;
+
+        
+    
+    
+            var circle_marker_3a38a1090a2f5ff84616ba278b862e6b = L.circleMarker(
+                [38.02530854331211, 23.73502785031847],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3063c485154577649ec18161318754e9);
+        
+    
+        var popup_cc02420173d8e839e933a9a97c1c2eb3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_149503f9aecac1f5cce494bdfb81c782 = $(`<div id="html_149503f9aecac1f5cce494bdfb81c782" style="width: 100.0%; height: 100.0%;">Neighbourhood: ΠΡΟΜΠΟΝΑ<br>Average Price: $39.82</div>`)[0];
+                popup_cc02420173d8e839e933a9a97c1c2eb3.setContent(html_149503f9aecac1f5cce494bdfb81c782);
+            
+        
+
+        circle_marker_3a38a1090a2f5ff84616ba278b862e6b.bindPopup(popup_cc02420173d8e839e933a9a97c1c2eb3)
+        ;
+
+        
+    
+    
+            var circle_marker_970ae94460f0f4d667f65bd41b19f0c5 = L.circleMarker(
+                [37.97462092948469, 23.74152413197435],
+                {"bubblingMouseEvents": true, "color": "#9467bd", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9467bd", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3063c485154577649ec18161318754e9);
+        
+    
+        var popup_5fb87c5ea96246fd9ba6e25067f636c0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ee52bc75c88a8881cff4b1cf39078190 = $(`<div id="html_ee52bc75c88a8881cff4b1cf39078190" style="width: 100.0%; height: 100.0%;">Neighbourhood: ΡΗΓΙΛΛΗΣ<br>Average Price: $91.23</div>`)[0];
+                popup_5fb87c5ea96246fd9ba6e25067f636c0.setContent(html_ee52bc75c88a8881cff4b1cf39078190);
+            
+        
+
+        circle_marker_970ae94460f0f4d667f65bd41b19f0c5.bindPopup(popup_5fb87c5ea96246fd9ba6e25067f636c0)
+        ;
+
+        
+    
+    
+            var circle_marker_2e8db8ef66554403f43e902d8e5cfb6f = L.circleMarker(
+                [38.028190579381445, 23.74462194226804],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3063c485154577649ec18161318754e9);
+        
+    
+        var popup_fdfd23b72bba9cf0f11bb5f45c6eb5e9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a670c8e1209dfc3448b97dc420beb782 = $(`<div id="html_a670c8e1209dfc3448b97dc420beb782" style="width: 100.0%; height: 100.0%;">Neighbourhood: ΡΙΖΟΥΠΟΛΗ<br>Average Price: $36.77</div>`)[0];
+                popup_fdfd23b72bba9cf0f11bb5f45c6eb5e9.setContent(html_a670c8e1209dfc3448b97dc420beb782);
+            
+        
+
+        circle_marker_2e8db8ef66554403f43e902d8e5cfb6f.bindPopup(popup_fdfd23b72bba9cf0f11bb5f45c6eb5e9)
+        ;
+
+        
+    
+    
+            var circle_marker_6b3621723013e4913ce930cbffed5bbd = L.circleMarker(
+                [38.004370831608576, 23.718218693003635],
+                {"bubblingMouseEvents": true, "color": "#ff7f0e", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7f0e", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3063c485154577649ec18161318754e9);
+        
+    
+        var popup_fe8a1c0fd0d265f8ce00f26d6e883959 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_93bf90d6ae6d41b98fc34d869388b865 = $(`<div id="html_93bf90d6ae6d41b98fc34d869388b865" style="width: 100.0%; height: 100.0%;">Neighbourhood: ΣΕΠΟΛΙΑ<br>Average Price: $51.25</div>`)[0];
+                popup_fe8a1c0fd0d265f8ce00f26d6e883959.setContent(html_93bf90d6ae6d41b98fc34d869388b865);
+            
+        
+
+        circle_marker_6b3621723013e4913ce930cbffed5bbd.bindPopup(popup_fe8a1c0fd0d265f8ce00f26d6e883959)
+        ;
+
+        
+    
+    
+            var circle_marker_02461a04f209ab264a470774f31b3ec6 = L.circleMarker(
+                [37.96652786107555, 23.73826175458777],
+                {"bubblingMouseEvents": true, "color": "#9467bd", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9467bd", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3063c485154577649ec18161318754e9);
+        
+    
+        var popup_b7a7de1ff887efcdab2208d08f333268 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7bf5c689512883604f144c4523d7e0a3 = $(`<div id="html_7bf5c689512883604f144c4523d7e0a3" style="width: 100.0%; height: 100.0%;">Neighbourhood: ΣΤΑΔΙΟ<br>Average Price: $93.50</div>`)[0];
+                popup_b7a7de1ff887efcdab2208d08f333268.setContent(html_7bf5c689512883604f144c4523d7e0a3);
+            
+        
+
+        circle_marker_02461a04f209ab264a470774f31b3ec6.bindPopup(popup_b7a7de1ff887efcdab2208d08f333268)
+        ;
+
+        
+    
+    
+            var circle_marker_d0d32fca27b5d0fb9c67173f2a90e1ab = L.circleMarker(
+                [37.993647138524004, 23.720659140842137],
+                {"bubblingMouseEvents": true, "color": "#ff7f0e", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7f0e", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3063c485154577649ec18161318754e9);
+        
+    
+        var popup_6cd93f7158e81bcbf471ffdc3811665f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_96137bfdefc356d12514bc63212b39dd = $(`<div id="html_96137bfdefc356d12514bc63212b39dd" style="width: 100.0%; height: 100.0%;">Neighbourhood: ΣΤΑΘΜΟΣ ΛΑΡΙΣΗΣ<br>Average Price: $53.69</div>`)[0];
+                popup_6cd93f7158e81bcbf471ffdc3811665f.setContent(html_96137bfdefc356d12514bc63212b39dd);
+            
+        
+
+        circle_marker_d0d32fca27b5d0fb9c67173f2a90e1ab.bindPopup(popup_6cd93f7158e81bcbf471ffdc3811665f)
+        ;
+
+        
+    
+    
+    var color_map_20fda0a8e1e9435493c7a6fc959cd79c = {};
+
+    
+    color_map_20fda0a8e1e9435493c7a6fc959cd79c.color = d3.scale.threshold()
+              .domain([36.7680412371134, 36.99902745656993, 37.23001367602645, 37.46099989548298, 37.6919861149395, 37.922972334396036, 38.15395855385256, 38.38494477330909, 38.61593099276561, 38.84691721222214, 39.07790343167866, 39.30888965113519, 39.539875870591715, 39.77086209004824, 40.001848309504766, 40.2328345289613, 40.463820748417824, 40.69480696787435, 40.925793187330875, 41.1567794067874, 41.387765626243926, 41.61875184570045, 41.84973806515698, 42.0807242846135, 42.311710504070035, 42.54269672352656, 42.773682942983086, 43.00466916243961, 43.23565538189614, 43.46664160135266, 43.69762782080919, 43.928614040265714, 44.15960025972224, 44.390586479178765, 44.62157269863529, 44.85255891809182, 45.08354513754835, 45.314531357004874, 45.5455175764614, 45.776503795917925, 46.00749001537445, 46.238476234830976, 46.4694624542875, 46.70044867374403, 46.93143489320056, 47.162421112657086, 47.39340733211361, 47.62439355157014, 47.85537977102666, 48.08636599048319, 48.31735220993971, 48.54833842939624, 48.779324648852764, 49.0103108683093, 49.24129708776582, 49.47228330722235, 49.70326952667887, 49.9342557461354, 50.165241965591925, 50.39622818504845, 50.627214404504976, 50.8582006239615, 51.08918684341803, 51.32017306287456, 51.551159282331085, 51.78214550178761, 52.013131721244136, 52.24411794070066, 52.47510416015719, 52.70609037961371, 52.93707659907024, 53.168062818526764, 53.39904903798329, 53.630035257439815, 53.86102147689635, 54.09200769635287, 54.3229939158094, 54.553980135265924, 54.78496635472245, 55.015952574178975, 55.2469387936355, 55.47792501309203, 55.70891123254856, 55.939897452005084, 56.17088367146161, 56.401869890918135, 56.63285611037466, 56.863842329831186, 57.09482854928771, 57.32581476874424, 57.55680098820076, 57.78778720765729, 58.018773427113814, 58.24975964657035, 58.48074586602687, 58.7117320854834, 58.94271830493992, 59.17370452439645, 59.404690743852974, 59.6356769633095, 59.86666318276603, 60.09764940222256, 60.328635621679084, 60.55962184113561, 60.790608060592135, 61.02159428004866, 61.252580499505186, 61.48356671896171, 61.71455293841824, 61.94553915787476, 62.17652537733129, 62.40751159678781, 62.638497816244346, 62.86948403570087, 63.1004702551574, 63.33145647461392, 63.56244269407045, 63.793428913526974, 64.0244151329835, 64.25540135244003, 64.48638757189656, 64.71737379135308, 64.94836001080961, 65.17934623026613, 65.41033244972266, 65.64131866917919, 65.87230488863571, 66.10329110809224, 66.33427732754876, 66.56526354700529, 66.79624976646181, 67.02723598591834, 67.25822220537486, 67.48920842483139, 67.72019464428791, 67.95118086374444, 68.18216708320097, 68.41315330265749, 68.64413952211403, 68.87512574157056, 69.10611196102708, 69.33709818048361, 69.56808439994013, 69.79907061939666, 70.03005683885318, 70.26104305830971, 70.49202927776624, 70.72301549722276, 70.9540017166793, 71.18498793613581, 71.41597415559235, 71.64696037504886, 71.8779465945054, 72.10893281396191, 72.33991903341845, 72.57090525287498, 72.8018914723315, 73.03287769178803, 73.26386391124456, 73.49485013070108, 73.7258363501576, 73.95682256961413, 74.18780878907066, 74.41879500852718, 74.64978122798371, 74.88076744744023, 75.11175366689676, 75.34273988635329, 75.57372610580981, 75.80471232526634, 76.03569854472286, 76.26668476417939, 76.49767098363591, 76.72865720309244, 76.95964342254898, 77.19062964200549, 77.42161586146203, 77.65260208091854, 77.88358830037508, 78.11457451983159, 78.34556073928813, 78.57654695874466, 78.80753317820118, 79.03851939765771, 79.26950561711423, 79.50049183657076, 79.7314780560273, 79.96246427548381, 80.19345049494035, 80.42443671439686, 80.6554229338534, 80.88640915330991, 81.11739537276645, 81.34838159222298, 81.5793678116795, 81.81035403113603, 82.04134025059255, 82.27232647004908, 82.5033126895056, 82.73429890896213, 82.96528512841866, 83.19627134787518, 83.42725756733171, 83.65824378678823, 83.88923000624476, 84.12021622570128, 84.35120244515781, 84.58218866461434, 84.81317488407086, 85.04416110352739, 85.27514732298391, 85.50613354244044, 85.73711976189698, 85.96810598135349, 86.19909220081003, 86.43007842026654, 86.66106463972308, 86.89205085917959, 87.12303707863613, 87.35402329809266, 87.58500951754918, 87.81599573700571, 88.04698195646223, 88.27796817591876, 88.5089543953753, 88.73994061483181, 88.97092683428835, 89.20191305374486, 89.4328992732014, 89.66388549265791, 89.89487171211445, 90.12585793157098, 90.3568441510275, 90.58783037048403, 90.81881658994055, 91.04980280939708, 91.2807890288536, 91.51177524831013, 91.74276146776666, 91.97374768722318, 92.2047339066797, 92.43572012613623, 92.66670634559276, 92.89769256504928, 93.12867878450581, 93.35966500396233, 93.59065122341886, 93.82163744287539, 94.05262366233191, 94.28360988178844, 94.51459610124498, 94.74558232070149, 94.97656854015803, 95.20755475961454, 95.43854097907108, 95.66952719852759, 95.90051341798413, 96.13149963744065, 96.36248585689718, 96.5934720763537, 96.82445829581023, 97.05544451526676, 97.28643073472328, 97.51741695417981, 97.74840317363635, 97.97938939309286, 98.2103756125494, 98.44136183200591, 98.67234805146245, 98.90333427091898, 99.1343204903755, 99.36530670983203, 99.59629292928855, 99.82727914874508, 100.0582653682016, 100.28925158765813, 100.52023780711465, 100.75122402657118, 100.9822102460277, 101.21319646548423, 101.44418268494076, 101.67516890439728, 101.90615512385381, 102.13714134331033, 102.36812756276686, 102.59911378222338, 102.83010000167991, 103.06108622113643, 103.29207244059296, 103.52305866004949, 103.75404487950601, 103.98503109896257, 104.21601731841906, 104.44700353787559, 104.67798975733211, 104.90897597678867, 105.1399621962452, 105.37094841570169, 105.60193463515822, 105.83292085461477, 106.0639070740713, 106.29489329352782, 106.52587951298432, 106.75686573244087, 106.9878519518974, 107.21883817135392, 107.44982439081042, 107.68081061026697, 107.9117968297235, 108.14278304918003, 108.37376926863655, 108.60475548809308, 108.8357417075496, 109.06672792700613, 109.29771414646265, 109.52870036591918, 109.7596865853757, 109.99067280483223, 110.22165902428875, 110.45264524374528, 110.6836314632018, 110.91461768265833, 111.14560390211486, 111.37659012157138, 111.60757634102791, 111.83856256048443, 112.06954877994096, 112.30053499939748, 112.53152121885401, 112.76250743831056, 112.99349365776706, 113.22447987722359, 113.45546609668011, 113.68645231613667, 113.91743853559319, 114.14842475504969, 114.37941097450621, 114.61039719396277, 114.8413834134193, 115.07236963287579, 115.30335585233232, 115.53434207178887, 115.7653282912454, 115.99631451070192, 116.22730073015842, 116.45828694961497, 116.6892731690715, 116.92025938852802, 117.15124560798455, 117.38223182744107, 117.6132180468976, 117.84420426635413, 118.07519048581065, 118.30617670526718, 118.5371629247237, 118.76814914418023, 118.99913536363675, 119.23012158309328, 119.4611078025498, 119.69209402200633, 119.92308024146286, 120.15406646091938, 120.3850526803759, 120.61603889983243, 120.84702511928896, 121.07801133874548, 121.30899755820201, 121.53998377765856, 121.77096999711506, 122.00195621657159, 122.23294243602811, 122.46392865548466, 122.69491487494119, 122.92590109439769, 123.15688731385421, 123.38787353331077, 123.61885975276729, 123.84984597222379, 124.08083219168032, 124.31181841113687, 124.5428046305934, 124.77379085004992, 125.00477706950642, 125.23576328896297, 125.4667495084195, 125.69773572787602, 125.92872194733255, 126.15970816678907, 126.3906943862456, 126.62168060570212, 126.85266682515865, 127.08365304461518, 127.3146392640717, 127.54562548352823, 127.77661170298475, 128.00759792244128, 128.2385841418978, 128.46957036135433, 128.70055658081085, 128.93154280026738, 129.1625290197239, 129.39351523918043, 129.62450145863696, 129.85548767809348, 130.08647389755, 130.31746011700656, 130.54844633646306, 130.77943255591958, 131.0104187753761, 131.24140499483266, 131.4723912142892, 131.7033774337457, 131.9343636532022, 132.16534987265877, 132.3963360921153, 132.6273223115718, 132.8583085310283, 133.08929475048487, 133.3202809699414, 133.55126718939792, 133.78225340885442, 134.01323962831097, 134.2442258477675, 134.47521206722402, 134.70619828668055, 134.93718450613707, 135.1681707255936, 135.39915694505012, 135.63014316450665, 135.86112938396317, 136.0921156034197, 136.32310182287623, 136.55408804233275, 136.78507426178928, 137.0160604812458, 137.24704670070233, 137.47803292015885, 137.70901913961538, 137.9400053590719, 138.17099157852843, 138.40197779798496, 138.63296401744148, 138.863950236898, 139.09493645635456, 139.32592267581106, 139.55690889526758, 139.7878951147241, 140.01888133418066, 140.2498675536372, 140.48085377309368, 140.7118399925502, 140.94282621200676, 141.1738124314633, 141.4047986509198, 141.6357848703763, 141.86677108983287, 142.0977573092894, 142.32874352874592, 142.55972974820241, 142.79071596765897, 143.0217021871155, 143.25268840657202, 143.48367462602855, 143.71466084548507, 143.9456470649416, 144.17663328439812, 144.40761950385465, 144.63860572331117, 144.8695919427677, 145.10057816222422, 145.33156438168075, 145.56255060113727, 145.7935368205938, 146.02452304005033, 146.25550925950685, 146.48649547896338, 146.7174816984199, 146.94846791787643, 147.17945413733295, 147.41044035678948, 147.641426576246, 147.87241279570256, 148.10339901515906, 148.33438523461558, 148.5653714540721, 148.79635767352866, 149.02734389298516, 149.25833011244168, 149.4893163318982, 149.72030255135476, 149.9512887708113, 150.18227499026779, 150.4132612097243, 150.64424742918087, 150.8752336486374, 151.10621986809392, 151.3372060875504, 151.56819230700697, 151.7991785264635, 152.03016474592002])
+              .range(['#1f77b4ff', '#1f77b4ff', '#1f77b4ff', '#1f77b4ff', '#1f77b4ff', '#1f77b4ff', '#1f77b4ff', '#1f77b4ff', '#1f77b4ff', '#1f77b4ff', '#1f77b4ff', '#1f77b4ff', '#1f77b4ff', '#1f77b4ff', '#1f77b4ff', '#1f77b4ff', '#1f77b4ff', '#1f77b4ff', '#1f77b4ff', '#1f77b4ff', '#1f77b4ff', '#1f77b4ff', '#1f77b4ff', '#1f77b4ff', '#1f77b4ff', '#1f77b4ff', '#1f77b4ff', '#1f77b4ff', '#1f77b4ff', '#1f77b4ff', '#1f77b4ff', '#1f77b4ff', '#1f77b4ff', '#1f77b4ff', '#1f77b4ff', '#1f77b4ff', '#1f77b4ff', '#1f77b4ff', '#1f77b4ff', '#1f77b4ff', '#1f77b4ff', '#1f77b4ff', '#1f77b4ff', '#1f77b4ff', '#1f77b4ff', '#1f77b4ff', '#1f77b4ff', '#1f77b4ff', '#1f77b4ff', '#1f77b4ff', '#1f77b4ff', '#1f77b4ff', '#1f77b4ff', '#1f77b4ff', '#1f77b4ff', '#1f77b4ff', '#2ca02cff', '#2ca02cff', '#2ca02cff', '#2ca02cff', '#2ca02cff', '#2ca02cff', '#2ca02cff', '#2ca02cff', '#2ca02cff', '#2ca02cff', '#2ca02cff', '#2ca02cff', '#2ca02cff', '#2ca02cff', '#2ca02cff', '#2ca02cff', '#2ca02cff', '#2ca02cff', '#2ca02cff', '#2ca02cff', '#2ca02cff', '#2ca02cff', '#2ca02cff', '#2ca02cff', '#2ca02cff', '#2ca02cff', '#2ca02cff', '#2ca02cff', '#2ca02cff', '#2ca02cff', '#2ca02cff', '#2ca02cff', '#2ca02cff', '#2ca02cff', '#2ca02cff', '#2ca02cff', '#2ca02cff', '#2ca02cff', '#2ca02cff', '#2ca02cff', '#2ca02cff', '#2ca02cff', '#2ca02cff', '#2ca02cff', '#2ca02cff', '#2ca02cff', '#2ca02cff', '#2ca02cff', '#2ca02cff', '#2ca02cff', '#2ca02cff', '#2ca02cff', '#2ca02cff', '#2ca02cff', '#2ca02cff', '#2ca02cff', '#2ca02cff', '#2ca02cff', '#2ca02cff', '#2ca02cff', '#2ca02cff', '#2ca02cff', '#2ca02cff', '#2ca02cff', '#2ca02cff', '#2ca02cff', '#2ca02cff', '#2ca02cff', '#2ca02cff', '#2ca02cff', '#2ca02cff', '#2ca02cff', '#2ca02cff', '#2ca02cff', '#2ca02cff', '#2ca02cff', '#2ca02cff', '#2ca02cff', '#2ca02cff', '#2ca02cff', '#2ca02cff', '#2ca02cff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#8c564bff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#7f7f7fff', '#ff7f0eff']);
+    
+
+    color_map_20fda0a8e1e9435493c7a6fc959cd79c.x = d3.scale.linear()
+              .domain([36.7680412371134, 152.03016474592002])
+              .range([0, 450 - 50]);
+
+    color_map_20fda0a8e1e9435493c7a6fc959cd79c.legend = L.control({position: 'topright'});
+    color_map_20fda0a8e1e9435493c7a6fc959cd79c.legend.onAdd = function (map) {var div = L.DomUtil.create('div', 'legend'); return div};
+    color_map_20fda0a8e1e9435493c7a6fc959cd79c.legend.addTo(map_3063c485154577649ec18161318754e9);
+
+    color_map_20fda0a8e1e9435493c7a6fc959cd79c.xAxis = d3.svg.axis()
+        .scale(color_map_20fda0a8e1e9435493c7a6fc959cd79c.x)
+        .orient("top")
+        .tickSize(1)
+        .tickValues([36.7680412371134, 49.47343801431863, 68.59255073776512, 99.08679048550016, 152.03016474592002]);
+
+    color_map_20fda0a8e1e9435493c7a6fc959cd79c.svg = d3.select(".legend.leaflet-control").append("svg")
+        .attr("id", 'legend')
+        .attr("width", 450)
+        .attr("height", 40);
+
+    color_map_20fda0a8e1e9435493c7a6fc959cd79c.g = color_map_20fda0a8e1e9435493c7a6fc959cd79c.svg.append("g")
+        .attr("class", "key")
+        .attr("transform", "translate(25,16)");
+
+    color_map_20fda0a8e1e9435493c7a6fc959cd79c.g.selectAll("rect")
+        .data(color_map_20fda0a8e1e9435493c7a6fc959cd79c.color.range().map(function(d, i) {
+          return {
+            x0: i ? color_map_20fda0a8e1e9435493c7a6fc959cd79c.x(color_map_20fda0a8e1e9435493c7a6fc959cd79c.color.domain()[i - 1]) : color_map_20fda0a8e1e9435493c7a6fc959cd79c.x.range()[0],
+            x1: i < color_map_20fda0a8e1e9435493c7a6fc959cd79c.color.domain().length ? color_map_20fda0a8e1e9435493c7a6fc959cd79c.x(color_map_20fda0a8e1e9435493c7a6fc959cd79c.color.domain()[i]) : color_map_20fda0a8e1e9435493c7a6fc959cd79c.x.range()[1],
+            z: d
+          };
+        }))
+      .enter().append("rect")
+        .attr("height", 40 - 30)
+        .attr("x", function(d) { return d.x0; })
+        .attr("width", function(d) { return d.x1 - d.x0; })
+        .style("fill", function(d) { return d.z; });
+
+    color_map_20fda0a8e1e9435493c7a6fc959cd79c.g.call(color_map_20fda0a8e1e9435493c7a6fc959cd79c.xAxis).append("text")
+        .attr("class", "caption")
+        .attr("y", 21)
+        .text("Average Price");
+</script>
+</html>
