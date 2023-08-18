@@ -1,26 +1,26 @@
-Airbnb Optimal Price Predictor for Athens, Greece
-This project utilizes machine learning to predict the optimal price for Airbnb bookings in Athens, Greece. By inputting various features related to the property and its location, users can get a suggested price for their listing.
+# Airbnb Optimal Price Predictor for Athens, Greece
+#  Athens, Greece – the site of our latest project – utilizes machine learning models to generate suggested listing Airbnb prices. To provide an accurate prediction, users must input data related to the property's attributes and its location.
 
-Features
-The model considers the following features for predictions:
+# Features
+# The model considers the following features for predictions:
 
-Minimum Nights
-Number of Reviews
-Reviews Per Month
-Calculated Host Listings Count
-Availability (365 days)
-Number of Reviews LTM (Last Twelve Months)
-Rating
-Bedrooms
-Beds
-Baths
-Minimum Displacement
-Nearest Stations (e.g., Ακρόπολη, Μοναστηράκι, Σύνταγμα)
-Neighbourhoods (e.g., ΑΚΡΟΠΟΛΗ, ΕΜΠΟΡΙΚΟ ΤΡΙΓΩΝΟ-ΠΛΑΚΑ)
-Property Types (e.g., Boutique hotel, Condo, Home)
-Room Types (e.g., Entire home/apt)
-Getting Started
-Setup:
+# Minimum Nights
+# Number of Reviews
+# Reviews Per Month
+# Calculated Host Listings Count
+# Availability (365 days)
+# Number of Reviews LTM (Last Twelve Months)
+# Rating
+# Bedrooms
+# Beds
+# Baths
+# Minimum Displacement
+# Nearest Stations (e.g., Ακρόπολη, Μοναστηράκι, Σύνταγμα)
+# Neighbourhoods (e.g., ΑΚΡΟΠΟΛΗ, ΕΜΠΟΡΙΚΟ ΤΡΙΓΩΝΟ-ΠΛΑΚΑ)
+# Property Types (e.g., Boutique hotel, Condo, Home)
+# Room Types (e.g., Entire home/apt)
+# Getting Started
+# Setup:
 
 Clone this repository.
 Install the required packages:
