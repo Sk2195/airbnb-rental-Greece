@@ -1,5 +1,5 @@
 # Airbnb Optimal Price Predictor for Athens, Greece
-#  Athens, Greece – the site of our latest project – utilizes machine learning models to generate suggested listing Airbnb prices. To provide an accurate prediction, users must input data related to the property's attributes and its location.
+-  Athens, Greece – the site of our latest project – utilizes machine learning models to generate suggested listing Airbnb prices. To provide an accurate prediction, users must input data related to the property's attributes and its location.
 
 # Features
 # The model considers the following features for predictions:
