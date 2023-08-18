@@ -3,22 +3,21 @@
 
 # Features
 # The model considers the following features for predictions:
-
-# Minimum Nights
-# Number of Reviews
-# Reviews Per Month
-# Calculated Host Listings Count
-# Availability (365 days)
-# Number of Reviews LTM (Last Twelve Months)
-# Rating
-# Bedrooms
-# Beds
-# Baths
-# Minimum Displacement
-# Nearest Stations (e.g., Ακρόπολη, Μοναστηράκι, Σύνταγμα)
-# Neighbourhoods (e.g., ΑΚΡΟΠΟΛΗ, ΕΜΠΟΡΙΚΟ ΤΡΙΓΩΝΟ-ΠΛΑΚΑ)
-# Property Types (e.g., Boutique hotel, Condo, Home)
-# Room Types (e.g., Entire home/apt)
+Minimum Nights
+Number of Reviews
+Reviews Per Month
+Calculated Host Listings Count
+Availability (365 days)
+Number of Reviews LTM (Last Twelve Months)
+ Rating
+ Bedrooms
+ Beds
+ Baths
+ Minimum Displacement
+ Nearest Stations (e.g., Ακρόπολη, Μοναστηράκι, Σύνταγμα)
+ Neighbourhoods (e.g., ΑΚΡΟΠΟΛΗ, ΕΜΠΟΡΙΚΟ ΤΡΙΓΩΝΟ-ΠΛΑΚΑ)
+ Property Types (e.g., Boutique hotel, Condo, Home)
+ Room Types (e.g., Entire home/apt)
 # Getting Started
 # Setup:
 
